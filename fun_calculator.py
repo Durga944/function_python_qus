@@ -1,0 +1,19 @@
+def calculator(x,y,opt):
+    if(opt=="add"):
+        return(x+y)
+    elif(opt=="sub"):
+        return(x-y)
+    elif(opt=="mul"):
+        return(x*y)
+    elif(opt=="div"):
+        return(x/y)
+    elif(opt=="mod"):
+        return(x%y)
+    elif(opt=="exp"):
+        return(x**y)
+print(calculator(4,5,"add"))
+print(calculator(5,6,"sub"))
+print(calculator(2,5,"mul"))
+print(calculator(9,7,"div"))
+print(calculator(10,12,"mod"))
+print(calculator(3,4,"exp"))
